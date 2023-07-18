@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #F7F7F7;
+    /* overflow-x: hidden; */
+}
+h1,h2,h3,h4,h5,h6,a,button,ul,input{
+    text-transform: capitalize;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.top-bar input{
+    background-image: url('/search_black_24dp.svg');
+    background-repeat: no-repeat;
+    background-position: 90%;
+    padding: 1rem;
+    border: none;
+}
+.top-bar input:focus{
+    outline: none;
+    background-image: none;
+}
+.icon-bar{
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    display: block;
+    margin: 0.5rem;
+}
+.logo{
+    font-size: 30px;
+    text-transform: lowercase!important;
+    font-weight: 900;
+}
+.logo img{
+    width: 35px;
+}
+.link a{
+    color: grey;
+    font-size: 15px;
+    /* font-weight: 600; */
+}
+.icon{
+    width: 16px;
+    fill: grey;
+}
+.link:hover{
+    background-color: rgba(0, 0, 255, 0.153);
+    border-right: 5px solid blue;
+}
+.link:hover a{
+    color: black;
+}
+.link:hover svg{
+    fill: black;
+}
+.number{
+    gap: 20px;
+    background-color: rgb(238, 238, 248);
+
+}
+.number img{
+    background-color: rgb(204, 204, 226);
+}
+.ngn{
+    color: #5865F2;
+}
+.flex{
+    gap: 10px;
+}
+.clearfix {
+    overflow: auto;
+}
+.balance{
+    float: right;
+}
+.blue{
+    background-color: #5865F2;
+}
+.grey{
+    background-color: rgb(223, 223, 233);
+}
+.button-group{
+    gap: 20px;
+    justify-content: space-between;
+}
+.button-group button{
+    width: 100%;
+    height: 40px;
+}
+.side{
+    gap: 15px;
+}
+.send{
+    width: 100%;
+}
+.group{
+    border: 1px solid black;
+}
+.card{
+    background: linear-gradient(40deg, #1FAEFF, #002481);
+    width: 100%;
+    height: 200px;
+    flex-shrink: 0;
+}
+.position-absolute{
+    z-index: 0;
+    left: 0;
+}
+.blue-circle{
+    bottom: 0;
+}
+.chip{
+    width: 50px;
+}
+.tri{
+    bottom: 20%;
+    left: 40%;
+}
+@media screen and (min-width: 800px) {
+    body{
+        overflow-x: hidden;
+    }
+    #search{
+        width: 130%!important;
+    }
+}
